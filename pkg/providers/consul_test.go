@@ -8,8 +8,8 @@ import (
 	"github.com/golang/mock/gomock"
 	"github.com/hashicorp/consul/api"
 
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/providers/mock_providers"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/providers/mock_providers"
 )
 
 func TestConsul(t *testing.T) {

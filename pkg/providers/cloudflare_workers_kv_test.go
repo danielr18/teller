@@ -8,8 +8,8 @@ import (
 	cloudflare "github.com/cloudflare/cloudflare-go"
 	"github.com/golang/mock/gomock"
 
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/providers/mock_providers"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/providers/mock_providers"
 )
 
 func TestCloudflareWorkersKV(t *testing.T) {

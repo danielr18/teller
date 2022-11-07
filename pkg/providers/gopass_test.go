@@ -10,8 +10,8 @@ import (
 	"github.com/gopasspw/gopass/pkg/gopass/secrets/secparse"
 
 	// "github.com/gopasspw/gopass/pkg/gopass/secrets/secparse"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/providers/mock_providers"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/providers/mock_providers"
 )
 
 func TestGopass(t *testing.T) {

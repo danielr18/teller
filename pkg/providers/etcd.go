@@ -14,10 +14,10 @@ import (
 
 	"go.etcd.io/etcd/pkg/v3/transport"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/utils"
 	"github.com/samber/lo"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/utils"
 )
 
 type EtcdClient interface {
@@ -31,7 +31,7 @@ type Etcd struct {
 
 const EtcdName = "etcd"
 
-//nolint
+// nolint
 func init() {
 	metaInfo := core.MetaInfo{
 		Description:    "Etcd",

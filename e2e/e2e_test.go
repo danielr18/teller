@@ -10,9 +10,9 @@ import (
 
 	"testing"
 
-	"github.com/spectralops/teller/e2e/register"
-	_ "github.com/spectralops/teller/e2e/tests"
-	"github.com/spectralops/teller/e2e/testutils"
+	"github.com/danielr18/teller/e2e/register"
+	_ "github.com/danielr18/teller/e2e/tests"
+	"github.com/danielr18/teller/e2e/testutils"
 	"github.com/stretchr/testify/assert"
 )
 

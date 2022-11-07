@@ -3,9 +3,9 @@ package providers
 import (
 	"fmt"
 
-	"github.com/spectralops/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/core"
 
-	"github.com/spectralops/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/logging"
 )
 
 type Example struct {

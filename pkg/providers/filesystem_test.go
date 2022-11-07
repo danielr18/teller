@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	"github.com/alecthomas/assert"
-	"github.com/spectralops/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/core"
 )
 
 func createMockDirectoryStructure(f *FileSystem) error {

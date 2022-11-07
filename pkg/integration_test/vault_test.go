@@ -1,3 +1,4 @@
+//go:build integration
 // +build integration
 
 package integration_test
@@ -9,9 +10,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/providers"
 	"github.com/hashicorp/vault/api"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/providers"
 	"github.com/stretchr/testify/assert"
 	"github.com/testcontainers/testcontainers-go"
 	"github.com/testcontainers/testcontainers-go/wait"

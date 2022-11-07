@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"text/template"
 
-	"github.com/spectralops/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/core"
 )
 
 type Templating struct {

@@ -15,11 +15,11 @@ import (
 	"text/template"
 	"time"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/providers"
 	"github.com/karrick/godirwalk"
 	"github.com/samber/lo"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/providers"
 	"gopkg.in/yaml.v3"
 )
 

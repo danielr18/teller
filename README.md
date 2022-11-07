@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-<img src="https://github.com/spectralops/teller/actions/workflows/ci.yml/badge.svg"/>
+<img src="https://github.com/danielr18/teller/actions/workflows/ci.yml/badge.svg"/>
 
 </p>
 
@@ -681,7 +681,7 @@ Your standard `AWS_DEFAULT_REGION`, `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`
 
 * Sync - `no`
 * Mapping - `yes`
-* Modes - `read`, [write: accepting PR](https://github.com/spectralops/teller)
+* Modes - `read`, [write: accepting PR](https://github.com/danielr18/teller)
 * Key format 
   * `env` - path based
   * `decrypt` - available in this provider, will use KMS automatically
@@ -794,7 +794,7 @@ Requires an API key populated in your environment in: `VERCEL_TOKEN`.
 
 * Sync - `yes`
 * Mapping - `yes`
-* Modes - `read`, [write: accepting PR](https://github.com/spectralops/teller)
+* Modes - `read`, [write: accepting PR](https://github.com/danielr18/teller)
 * Key format 
   * `env_sync` - name of your Vercel app
   * `env` - the actual env variable name in your Vercel settings
@@ -834,7 +834,7 @@ cert_file: ""
 
 ### Features
 
-* Sync - `no` [sync: accepting PR](https://github.com/spectralops/teller)
+* Sync - `no` [sync: accepting PR](https://github.com/danielr18/teller)
 * Mapping - `yes`
 * Modes - `read+write`
 * Key format
@@ -1281,7 +1281,7 @@ $ make lint
 
 ### Thanks:
 
-To all [Contributors](https://github.com/spectralops/teller/graphs/contributors) - you make this happen, thanks!
+To all [Contributors](https://github.com/danielr18/teller/graphs/contributors) - you make this happen, thanks!
 
 ### Code of conduct
 

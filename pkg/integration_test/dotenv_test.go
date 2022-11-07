@@ -7,8 +7,8 @@ import (
 	"os"
 	"testing"
 
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/providers"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/providers"
 	"github.com/stretchr/testify/assert"
 )
 

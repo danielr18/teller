@@ -6,11 +6,11 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/utils"
 	"github.com/gopasspw/gopass/pkg/gopass"
 	"github.com/gopasspw/gopass/pkg/gopass/api"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/utils"
 )
 
 type GopassClient interface {
@@ -26,7 +26,7 @@ type Gopass struct {
 
 const GoPassName = "gopass"
 
-//nolint
+// nolint
 func init() {
 	metaInfo := core.MetaInfo{
 		Description:    "Gopass",

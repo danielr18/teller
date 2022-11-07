@@ -8,8 +8,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/ssm"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
 )
 
 type AWSSSMClient interface {
@@ -22,7 +22,7 @@ type AWSSSM struct {
 
 const awsssmName = "aws_ssm"
 
-//nolint
+// nolint
 func init() {
 	metaInfo := core.MetaInfo{
 		Description:    "AWS SSM (aka paramstore)",

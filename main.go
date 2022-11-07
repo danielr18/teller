@@ -6,10 +6,10 @@ import (
 	"os"
 
 	"github.com/alecthomas/kong"
-	"github.com/spectralops/teller/pkg"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/providers"
-	"github.com/spectralops/teller/pkg/utils"
+	"github.com/danielr18/teller/pkg"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/providers"
+	"github.com/danielr18/teller/pkg/utils"
 )
 
 var CLI struct {
@@ -98,7 +98,7 @@ var (
 	defaultLogLevel = "error"
 )
 
-//nolint
+// nolint
 func main() {
 	ctx := kong.Parse(&CLI)
 

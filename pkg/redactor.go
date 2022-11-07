@@ -4,7 +4,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/spectralops/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/core"
 )
 
 type Redactor struct {

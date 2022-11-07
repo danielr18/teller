@@ -3,7 +3,7 @@ package pkg
 import (
 	"os"
 
-	"github.com/spectralops/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/core"
 	"gopkg.in/yaml.v2"
 )
 

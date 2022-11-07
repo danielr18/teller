@@ -13,9 +13,9 @@ import (
 	"github.com/aws/aws-sdk-go-v2/config"
 	"github.com/aws/aws-sdk-go-v2/service/secretsmanager"
 	smtypes "github.com/aws/aws-sdk-go-v2/service/secretsmanager/types"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/utils"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/utils"
 )
 
 type AWSSecretsManagerClient interface {
@@ -37,7 +37,7 @@ type AWSSecretsManager struct {
 const defaultDeletionRecoveryWindowInDays = 7
 const versionSplit = ","
 
-//nolint
+// nolint
 func init() {
 	metaInfo := core.MetaInfo{
 		Name:           "aws_secretsmanager",

@@ -6,9 +6,9 @@ import (
 
 	"github.com/hashicorp/consul/api"
 
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
-	"github.com/spectralops/teller/pkg/utils"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/utils"
 )
 
 type ConsulClient interface {
@@ -24,7 +24,7 @@ type Consul struct {
 
 const consulName = "consul"
 
-//nolint
+// nolint
 func init() {
 	metaInto := core.MetaInfo{
 		Description:    "Consul",

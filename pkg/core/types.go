@@ -3,7 +3,7 @@ package core
 import (
 	"strings"
 
-	"github.com/spectralops/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/logging"
 )
 
 type Severity string

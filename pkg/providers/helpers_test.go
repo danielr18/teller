@@ -5,8 +5,8 @@ import (
 
 	"github.com/alecthomas/assert"
 
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
 )
 
 func AssertProvider(t *testing.T, s core.Provider, sync bool) {

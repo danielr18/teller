@@ -13,10 +13,10 @@ import (
 	survey "github.com/AlecAivazis/survey/v2"
 	"github.com/samber/lo"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/utils"
 	"github.com/fatih/color"
 	"github.com/jftuga/ellipsis"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/utils"
 )
 
 type Porcelain struct {

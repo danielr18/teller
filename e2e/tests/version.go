@@ -4,7 +4,7 @@ import (
 	"errors"
 	"regexp"
 
-	"github.com/spectralops/teller/e2e/register"
+	"github.com/danielr18/teller/e2e/register"
 )
 
 func init() { //nolint

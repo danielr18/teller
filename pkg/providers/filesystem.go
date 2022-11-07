@@ -10,9 +10,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"github.com/danielr18/teller/pkg/core"
+	"github.com/danielr18/teller/pkg/logging"
 	"github.com/karrick/godirwalk"
-	"github.com/spectralops/teller/pkg/core"
-	"github.com/spectralops/teller/pkg/logging"
 )
 
 type FileSystem struct {
@@ -22,7 +22,7 @@ type FileSystem struct {
 
 const FileSystemName = "FileSystem"
 
-//nolint
+// nolint
 func init() {
 	metaInfo := core.MetaInfo{
 		Description:    "File system",
